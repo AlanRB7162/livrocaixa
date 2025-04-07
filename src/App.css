@@ -45,7 +45,11 @@ body {
   
   /* Main content */
   .main-content {
-    padding: 16px;
+    padding: 30px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   /* Pages */
@@ -58,3 +62,49 @@ body {
     font-weight: 600;
     margin-bottom: 8px;
   }
+
+  .header-title {
+    text-align: center;
+  }
+
+.login-title {
+  text-align: center;
+}
+
+.login {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #007bff;
+  border-radius: 60px;
+  width: 400px;
+  height: 350px;
+}
+
+.login-form {
+  display:flex;
+  flex-direction: column;
+  width: 400px;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  width: 40%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  align-content: center;
+  width: 40%;
+  border-radius: 15px;
+  font-weight: bolder;
+  font-size: large;
+  background-color: #463aec;
+}
