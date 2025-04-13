@@ -9,6 +9,10 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Footer } from './components/Footer';
 import { Login } from './pages/Login';
+import { Register } from './pages/Registros';
+import { NewLancamento } from './pages/NewLancamento';
+import { Edit } from './pages/Edit';
+import { DeleteConfirmation } from './pages/Delete';
 
 function App() {
   return (
@@ -20,6 +24,10 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/login" element={<Login />}/>
+          <Route path="/register" element={<Register />}/>
+          <Route path="/register/nlancamento" element={<NewLancamento />}/>
+          <Route path="/register/edit" element={<Edit />}/>
+          <Route path="/register/delete" element={<DeleteConfirmation />}/>
         </Routes>
       </main>
       <Footer/>

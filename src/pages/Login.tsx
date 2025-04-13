@@ -6,7 +6,7 @@ export function Login(){
             <label htmlFor="email"></label><br/>
             <input type="text" placeholder="Insira seu E-mail" id="email" name="email"></input>
             <label htmlFor="password"></label>
-            <input type="text" placeholder="Insira sua senha" id="password" name="password"></input>
+            <input type="password" placeholder="Insira sua senha" id="password" name="password"></input>
             <button type="submit">Login</button>
         </div>
         </section>

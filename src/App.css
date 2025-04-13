@@ -95,7 +95,7 @@ input{
   margin: 20px;
   padding: 10px;
   border-radius: 15px;
-  border: none;
+  border-color: black;
 }
 
 button {
@@ -107,4 +107,50 @@ button {
   font-weight: bolder;
   font-size: large;
   background-color: #463aec;
+}
+
+.tableReg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.ResumoFinanceiro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ResumoFinanceiro div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ResumoFinanceiro div label {
+  margin-bottom: 1px;
+}
+
+.ResumoFinanceiro div input {
+  width: 170px;
+  text-align: center;
+}
+
+.Nlancamento{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.Nlancamento button{
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+}
+
+#tpagos {
+
 }

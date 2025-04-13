@@ -7,6 +7,7 @@ export function Nav(){
             <Link to="/">Início</Link>
             <Link to="/about">Sobre</Link>
             <Link to="/login">Login</Link>
+            <Link to="/register">Registros</Link>
         </nav>
     );
 }
